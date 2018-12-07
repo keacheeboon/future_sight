@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    margin: 5px;
+}
+
+html, body {
+    position: relative;
+    background: rgb(29,28,24);
+    color: #eee;
+    min-width: 1000px;
+
+    background-image: url('../img/bg.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+#title, #ss1, #ss2, #ss3, #ss4 {
+    display: block;
+    margin: 100px auto;
+}
+
+#title {
+    min-width: 598px;
+    width: 50%;
+}
+
+#ss1, #ss2, #ss3, #ss4 {
+    min-width: 800px;
+    width: 60%;
+}
+
+#title-text {
+    margin: 100px 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#download {
+    display: block;
+    margin: 100px auto;
+    width: 50%;
+    min-width: 800px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+
+#download, #download > a {
+    border-radius: 10px;
+}
+
+#download > span {
+    display: block;
+    padding: 0 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.simple-btn {
+    display: block;
+    padding: 20px 10px;
+    background-color: rgb(50, 180, 50);
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color linear 0.5s;
+}
+
+.simple-btn:hover {
+    background-color: rgb(100, 230, 100);
+}
