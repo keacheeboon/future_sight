@@ -66,8 +66,10 @@ html, body {
 
 .simple-btn {
     display: block;
+	margin: auto;
     padding: 20px 10px;
-    background-color: rgb(50, 180, 50);
+	width: 300px;
+    border: 1px solid white;
     color: #fff;
     text-shadow: 2px 2px 4px #000;
     text-align: center;
@@ -76,5 +78,22 @@ html, body {
 }
 
 .simple-btn:hover {
-    background-color: rgb(100, 230, 100);
+    background-color: #084;
 }
+
+@media screen and (orientation:portrait) {
+	html, body {
+		background-position-y: top;
+	}
+	#title, #ss1, #ss2, #ss3, #ss4 {
+		width: 100%;
+	}
+	#title-text {
+		font-size: 42px;
+	}
+	#download {
+		width: 100%;
+		font-size: 36px;
+	}
+}
+
